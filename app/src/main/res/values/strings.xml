@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MediDoc</string>
+    <string name="med_name">Medical Profile</string>
+    <string name="med_age">Age</string>
+    <string name="med_weight">Weight</string>
+    <string name="med_height">Height</string>
+    <string name="med_sugar">Fasting Blood Suger Level</string>
+    <string name="med_presure">Pressure Level</string>
+    <string name="med_cholesterol">Total Cholesterol Level</string>
+    <string name="med_submit">Submit</string>
+    <string name="med_kg">Kg</string>
+    <string name="med_height1">m</string>
+    <string name="med_pressure">         sys/dias mmHg</string>
+    <string name="med_sugarU">mmol/L</string>
+    <string name="med_cholestrolU"> mg/dL </string>
+    <string name="med_dis">Profile</string>
+    <string name="med_delete">Delete</string>
+    <string name="med_update">Update</string>
+    <string name="med_view">View Profile</string>
+    <string name="med_update1">Medical Profile Update</string>
+
+</resources>
