@@ -91,7 +91,6 @@ public class DBHelper extends SQLiteOpenHelper {
 
         };
 
-
         Cursor cursor = db.query(
                 UserMaster.Health.TABLE_NAME,
                 projection,
@@ -102,9 +101,7 @@ public class DBHelper extends SQLiteOpenHelper {
                 null);
 
 
-
-
-        while(cursor.moveToNext()){
+        while(cursor.moveToNext()) {
 
             age = cursor.getString(cursor.getColumnIndexOrThrow(UserMaster.Health.COLUMN_1));
             weight = cursor.getString(cursor.getColumnIndexOrThrow(UserMaster.Health.COLUMN_2));
@@ -117,17 +114,8 @@ public class DBHelper extends SQLiteOpenHelper {
 
             cholestrolL = cursor.getString(cursor.getColumnIndexOrThrow(UserMaster.Health.COLUMN_6));
 
-
-
         }
-
-
         cursor.close();
-
-
-
-
-
 
 
     }
